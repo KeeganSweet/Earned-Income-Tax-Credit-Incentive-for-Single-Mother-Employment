@@ -10,6 +10,8 @@ Eissa, N. & Liebman, J. (1996, May). "Labor Supply Response to the Earned Income
 
 United States Congress. (1993). Omnibus Budget Reconciliation Act of 1993, Pub. L. No. 103-66, 107 Stat. 434 (1993).
 
+Stata file attached in GitHub.
+
 Description:
 
 This study examines the impact of government labor participation incentives via the earned income tax credit. An expansion was made to the tax code in 1993 to incentive work and reduce dependency on the welfare system for a specific demographic: single mothers. The tax credit constitutes a significant percentage of the income (outlined in 107 Stat. 433-434) if the mother is employed. This model examines regression effects when the x & y variables are binary; notably, the dependent variable: whether a single mother has a job or not (yes or no, 1 or 0). We will be using a logistic regression for this, since a linear regression does not fit this type of analysis. We'll first analyze the direct effects, then introduce omitted variables via the women's demographics, and finally, compare our results against a placebo test. Run each model sequentially to view results.
